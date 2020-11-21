@@ -1,0 +1,48 @@
+
+img {	width:150px;
+	height:150px;
+  
+}
+
+.pic{
+	margin-top:150px;
+    display:grid;
+	grid-template-columns: 200px 200px;
+	justify-content:center;
+	align-content:center;
+
+}
+.chracterstics{
+padding:30px;	
+color:red;
+}
+
+.chracterstics  p{
+	text-align:center;
+	font-family: "Andale Mono";
+	font-size:1em;
+}
+
+.button{
+	width: 400px;
+	height: 400px;
+	background-image: linear-gradient(pink,white);
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	z-index:-1;
+	margin: auto;
+
+
+}
+.button{
+text-align:right;
+
+
+}
+button{
+	border:none;
+	background-image: linear-gradient(pink,white);
+}

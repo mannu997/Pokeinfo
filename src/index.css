@@ -1,0 +1,43 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(pink, white);
+    background-repeat: no-repeat;
+}
+h1{
+  padding-left:80px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+li
+{
+	list-style-type:none;
+}
+.power {
+	border:1px solid black;
+	width:100px;
+	margin:0 auto;
+	text-align: left;
+	
+}
+.power p{
+	padding-top:0px;
+	border:1px solid black;
+	margin:0;
+}
+.pokemons {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    justify-items:center;
+    grid-row-gap:20px;
+
+}
+
+
