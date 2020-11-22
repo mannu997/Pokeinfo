@@ -6,7 +6,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-image: linear-gradient(pink, white);
     background-repeat: no-repeat;
 }
 h1{
@@ -20,24 +19,24 @@ li
 {
 	list-style-type:none;
 }
-.power {
-	border:1px solid black;
-	width:100px;
-	margin:0 auto;
-	text-align: left;
-	
-}
-.power p{
-	padding-top:0px;
-	border:1px solid black;
-	margin:0;
-}
+
 .pokemons {
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     justify-items:center;
     grid-row-gap:20px;
 
+}
+
+.pokemons img{
+   background-image: linear-gradient( pink,rgba(255,255,255,.2));
+  
+} 
+.pokemons img:hover{
+  transition-property: transform;
+  transition-duration:2s;
+  transform:scale(1.2);
+  box-shadow: 10px 10px 5px #ccc;
 }
 
 

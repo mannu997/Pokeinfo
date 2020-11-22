@@ -9,7 +9,7 @@ const Pictures = (props) => {
     	pokemoninfo[pokemon.id] = pokemon;
     	keys.push(pokemon.id)
     })
-   
+    console.log(pokemoninfo)
 	return (
         <div className="pokemons">
        {keys.map((pokemonkey,i)=>{

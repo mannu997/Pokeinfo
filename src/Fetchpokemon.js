@@ -25,6 +25,7 @@ class Fetchpokemon extends Component {
           info = info[0]
           this.setState({info,loading:false})	
        })
+
     }
 
  
